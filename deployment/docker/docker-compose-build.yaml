@@ -7,12 +7,12 @@ services:
   backend_user:
     build:
       context: ../../restapi-user
-    image: scheele/udacity-restapi-user
+    image: guetteluis/udagram-user
   backend_feed:
     build:
       context: ../../restapi-feed  
-    image: scheele/udacity-restapi-feed
+    image: guetteluis/udagram-feed
   frontend:
     build:
       context: ../../frontend  
-    image: scheele/udacity-frontend:local
+    image: guetteluis/udagram-frontend
