@@ -3,7 +3,7 @@ services:
   reverseproxy:
     build:
       context: .
-    image: scheele/reverseproxy 
+    image: guetteluis/reverseproxy 
   backend_user:
     build:
       context: ../../restapi-user
